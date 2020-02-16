@@ -1,19 +1,19 @@
 package com.upgrad.quora.service.business;
 
 
+import org.springframework.stereotype.Service;
+
+import javax.crypto.SecretKey;
+import javax.crypto.SecretKeyFactory;
+import javax.crypto.spec.PBEKeySpec;
 import java.security.NoSuchAlgorithmException;
 import java.security.SecureRandom;
 import java.security.spec.InvalidKeySpecException;
 import java.util.Base64;
 import java.util.Random;
-import javax.crypto.SecretKey;
-import javax.crypto.SecretKeyFactory;
-import javax.crypto.spec.PBEKeySpec;
-
-import org.springframework.stereotype.Component;
 
 
-@Component
+@Service
 public class PasswordCryptographyProvider {
 
     private static String SECRET_KEY_ALGORITHM = "PBKDF2WithHmacSHA512";
