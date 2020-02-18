@@ -5,6 +5,7 @@ import org.springframework.stereotype.Repository;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
+import java.util.List;
 
 @Repository
 public class QuestionDao {
@@ -16,5 +17,15 @@ public class QuestionDao {
     {
         entityManager.persist(questionEntity);
         return questionEntity;
+    }
+
+    public QuestionEntity getQuestionByUUID(final String uuid)
+    {
+        return entityManager.createNamedQuery("questionByUUID", QuestionEntity.class).setParameter("uuid", uuid).getSingleResult();
+    }
+
+    public List<QuestionEntity> getAllQuestions()
+    {
+        return entityManager.createNamedQuery("allQuestions",QuestionEntity.class).getResultList();
     }
 }
