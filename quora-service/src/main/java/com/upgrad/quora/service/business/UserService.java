@@ -35,8 +35,8 @@ public class UserService {
         UserAuthEntity userAuthToken = new UserAuthEntity();
         if(userEntity!=null)
         {
-            String ecryptedPassword=cryptographyProvider.encrypt(userEntity.getSalt(),password);
-            if(userEntity.getPassword().equalsIgnoreCase(ecryptedPassword))
+            String encryptedPassword=cryptographyProvider.encrypt(userEntity.getSalt(),password);
+            if(userEntity.getPassword().equalsIgnoreCase(encryptedPassword))
             {
                 JwtTokenProvider jwtTokenProvider = new JwtTokenProvider(userEntity.getPassword());
                 userAuthToken.setUser(userEntity);

@@ -9,6 +9,8 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.List;
+
 @Service
 public class QuestionService {
 
@@ -24,5 +26,16 @@ public class QuestionService {
         UserAuthEntity authEntity=userDao.getUserByToken(accessToken);
         questionEntity.setUser(authEntity.getUser());
         return questionDao.postQuestion(questionEntity);
+    }
+
+    public List<QuestionEntity> getAllQuestions(String accessToken)
+    {
+        UserAuthEntity authEntity=userDao.getUserByToken(accessToken);
+        if(authEntity!=null)
+        {
+            return questionDao.getAllQuestions();
+        }
+
+        return null;
     }
 }
