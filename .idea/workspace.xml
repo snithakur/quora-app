@@ -4,9 +4,32 @@
     <list default="true" id="47a15d9d-c79e-46a9-bbbf-df38ac55657d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/quora-api/src/main/java/com/upgrad/quora/api/controller/QuestionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/quora-api/src/main/java/com/upgrad/quora/api/controller/QuestionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quora-api/src/main/java/com/upgrad/quora/api/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/quora-api/src/main/java/com/upgrad/quora/api/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quora-api/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/quora-api/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quora-api/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/quora-api/target/classes/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quora-api/src/main/java/com/upgrad/quora/api/model/AnswerDeleteResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quora-api/src/main/java/com/upgrad/quora/api/model/AnswerDetailsResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quora-api/src/main/java/com/upgrad/quora/api/model/AnswerEditRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quora-api/src/main/java/com/upgrad/quora/api/model/AnswerEditResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quora-api/src/main/java/com/upgrad/quora/api/model/AnswerRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quora-api/src/main/java/com/upgrad/quora/api/model/AnswerResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quora-api/src/main/java/com/upgrad/quora/api/model/ErrorResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quora-api/src/main/java/com/upgrad/quora/api/model/QuestionDeleteResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quora-api/src/main/java/com/upgrad/quora/api/model/QuestionDetailsResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quora-api/src/main/java/com/upgrad/quora/api/model/QuestionEditRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quora-api/src/main/java/com/upgrad/quora/api/model/QuestionEditResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quora-api/src/main/java/com/upgrad/quora/api/model/QuestionRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quora-api/src/main/java/com/upgrad/quora/api/model/QuestionResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quora-api/src/main/java/com/upgrad/quora/api/model/SigninResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quora-api/src/main/java/com/upgrad/quora/api/model/SignoutResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quora-api/src/main/java/com/upgrad/quora/api/model/SignupUserRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quora-api/src/main/java/com/upgrad/quora/api/model/SignupUserResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quora-api/src/main/java/com/upgrad/quora/api/model/UserDeleteResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quora-api/src/main/java/com/upgrad/quora/api/model/UserDetailsResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quora-api/target/classes/com/upgrad/quora/api/QuoraApiApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/quora-api/target/classes/com/upgrad/quora/api/QuoraApiApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quora-api/target/classes/com/upgrad/quora/api/config/SwaggerConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/quora-api/target/classes/com/upgrad/quora/api/config/SwaggerConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quora-api/target/classes/com/upgrad/quora/api/controller/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/quora-api/target/classes/com/upgrad/quora/api/controller/AdminController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quora-api/target/classes/com/upgrad/quora/api/controller/AnswerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/quora-api/target/classes/com/upgrad/quora/api/controller/AnswerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quora-api/target/classes/com/upgrad/quora/api/controller/CommonController.class" beforeDir="false" afterPath="$PROJECT_DIR$/quora-api/target/classes/com/upgrad/quora/api/controller/CommonController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quora-api/target/classes/com/upgrad/quora/api/controller/QuestionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/quora-api/target/classes/com/upgrad/quora/api/controller/QuestionController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quora-api/target/classes/com/upgrad/quora/api/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/quora-api/target/classes/com/upgrad/quora/api/controller/UserController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/quora-api/target/classes/com/upgrad/quora/api/model/AnswerDeleteResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/quora-api/target/classes/com/upgrad/quora/api/model/AnswerDeleteResponse.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/quora-api/target/classes/com/upgrad/quora/api/model/AnswerDetailsResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/quora-api/target/classes/com/upgrad/quora/api/model/AnswerDetailsResponse.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/quora-api/target/classes/com/upgrad/quora/api/model/AnswerEditRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/quora-api/target/classes/com/upgrad/quora/api/model/AnswerEditRequest.class" afterDir="false" />
@@ -26,41 +49,53 @@
       <change beforePath="$PROJECT_DIR$/quora-api/target/classes/com/upgrad/quora/api/model/SignupUserResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/quora-api/target/classes/com/upgrad/quora/api/model/SignupUserResponse.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/quora-api/target/classes/com/upgrad/quora/api/model/UserDeleteResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/quora-api/target/classes/com/upgrad/quora/api/model/UserDeleteResponse.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/quora-api/target/classes/com/upgrad/quora/api/model/UserDetailsResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/quora-api/target/classes/com/upgrad/quora/api/model/UserDetailsResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quora-api/target/classes/io/swagger/RFC3339DateFormat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/quora-api/target/classes/io/swagger/Swagger2SpringBoot$ExitException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/quora-api/target/classes/io/swagger/Swagger2SpringBoot.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/quora-api/target/classes/io/swagger/api/ApiException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/quora-api/target/classes/io/swagger/api/ApiOriginFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/quora-api/target/classes/io/swagger/api/ApiResponseMessage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/quora-api/target/classes/io/swagger/api/NotFoundException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/quora-api/target/classes/io/swagger/configuration/HomeController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/quora-api/target/classes/io/swagger/configuration/SwaggerDocumentationConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/quora-api/target/generated-sources/com/upgrad/quora/api/model/AnswerDeleteResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/quora-api/src/main/java/com/upgrad/quora/api/model/AnswerDeleteResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quora-api/target/generated-sources/com/upgrad/quora/api/model/AnswerDetailsResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/quora-api/src/main/java/com/upgrad/quora/api/model/AnswerDetailsResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quora-api/target/generated-sources/com/upgrad/quora/api/model/AnswerEditRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/quora-api/src/main/java/com/upgrad/quora/api/model/AnswerEditRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quora-api/target/generated-sources/com/upgrad/quora/api/model/AnswerEditResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/quora-api/src/main/java/com/upgrad/quora/api/model/AnswerEditResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quora-api/target/generated-sources/com/upgrad/quora/api/model/AnswerRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/quora-api/src/main/java/com/upgrad/quora/api/model/AnswerRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quora-api/target/generated-sources/com/upgrad/quora/api/model/AnswerResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/quora-api/src/main/java/com/upgrad/quora/api/model/AnswerResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quora-api/target/generated-sources/com/upgrad/quora/api/model/ErrorResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/quora-api/src/main/java/com/upgrad/quora/api/model/ErrorResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quora-api/target/generated-sources/com/upgrad/quora/api/model/QuestionDeleteResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/quora-api/src/main/java/com/upgrad/quora/api/model/QuestionDeleteResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quora-api/target/generated-sources/com/upgrad/quora/api/model/QuestionDetailsResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/quora-api/src/main/java/com/upgrad/quora/api/model/QuestionDetailsResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quora-api/target/generated-sources/com/upgrad/quora/api/model/QuestionEditRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/quora-api/src/main/java/com/upgrad/quora/api/model/QuestionEditRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quora-api/target/generated-sources/com/upgrad/quora/api/model/QuestionEditResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/quora-api/src/main/java/com/upgrad/quora/api/model/QuestionEditResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quora-api/target/generated-sources/com/upgrad/quora/api/model/QuestionRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/quora-api/src/main/java/com/upgrad/quora/api/model/QuestionRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quora-api/target/generated-sources/com/upgrad/quora/api/model/QuestionResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/quora-api/src/main/java/com/upgrad/quora/api/model/QuestionResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quora-api/target/generated-sources/com/upgrad/quora/api/model/SigninResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/quora-api/src/main/java/com/upgrad/quora/api/model/SigninResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quora-api/target/generated-sources/com/upgrad/quora/api/model/SignoutResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/quora-api/src/main/java/com/upgrad/quora/api/model/SignoutResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quora-api/target/generated-sources/com/upgrad/quora/api/model/SignupUserRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/quora-api/src/main/java/com/upgrad/quora/api/model/SignupUserRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quora-api/target/generated-sources/com/upgrad/quora/api/model/SignupUserResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/quora-api/src/main/java/com/upgrad/quora/api/model/SignupUserResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quora-api/target/generated-sources/com/upgrad/quora/api/model/UserDeleteResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/quora-api/src/main/java/com/upgrad/quora/api/model/UserDeleteResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quora-api/target/generated-sources/com/upgrad/quora/api/model/UserDetailsResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/quora-api/src/main/java/com/upgrad/quora/api/model/UserDetailsResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quora-api/target/generated-sources/.swagger-codegen-ignore" beforeDir="false" afterPath="$PROJECT_DIR$/quora-api/target/generated-sources/.swagger-codegen-ignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quora-api/target/generated-sources/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/quora-api/target/generated-sources/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quora-api/target/generated-sources/io/swagger/RFC3339DateFormat.java" beforeDir="false" afterPath="$PROJECT_DIR$/quora-api/target/generated-sources/io/swagger/RFC3339DateFormat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/quora-api/target/generated-sources/io/swagger/Swagger2SpringBoot.java" beforeDir="false" afterPath="$PROJECT_DIR$/quora-api/target/generated-sources/io/swagger/Swagger2SpringBoot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quora-api/target/generated-sources/io/swagger/api/ApiException.java" beforeDir="false" afterPath="$PROJECT_DIR$/quora-api/target/generated-sources/io/swagger/api/ApiException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/quora-api/target/generated-sources/io/swagger/api/ApiOriginFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/quora-api/target/generated-sources/io/swagger/api/ApiOriginFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quora-api/target/generated-sources/io/swagger/api/ApiResponseMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/quora-api/target/generated-sources/io/swagger/api/ApiResponseMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quora-api/target/generated-sources/io/swagger/api/NotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/quora-api/target/generated-sources/io/swagger/api/NotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quora-api/target/generated-sources/io/swagger/configuration/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/quora-api/target/generated-sources/io/swagger/configuration/HomeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/quora-api/target/generated-sources/io/swagger/configuration/SwaggerDocumentationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/quora-api/target/generated-sources/io/swagger/configuration/SwaggerDocumentationConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quora-service/src/main/java/com/upgrad/quora/service/business/PasswordCryptographyProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/quora-service/src/main/java/com/upgrad/quora/service/business/PasswordCryptographyProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quora-api/target/generated-sources/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/quora-api/target/generated-sources/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quora-api/target/generated-sources/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/quora-api/target/generated-sources/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quora-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/quora-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quora-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/quora-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quora-api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/quora-api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quora-api/target/quora-api-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/quora-api/target/quora-api-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quora-db/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quora-db/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quora-db/target/quora-db.jar" beforeDir="false" afterPath="$PROJECT_DIR$/quora-db/target/quora-db.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quora-service/target/classes/com/upgrad/quora/service/ServiceConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/quora-service/target/classes/com/upgrad/quora/service/ServiceConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quora-service/target/classes/com/upgrad/quora/service/business/AnswerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/quora-service/target/classes/com/upgrad/quora/service/business/AnswerService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quora-service/target/classes/com/upgrad/quora/service/business/JwtTokenProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/quora-service/target/classes/com/upgrad/quora/service/business/JwtTokenProvider.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/quora-service/target/classes/com/upgrad/quora/service/business/PasswordCryptographyProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/quora-service/target/classes/com/upgrad/quora/service/business/PasswordCryptographyProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quora-service/target/classes/com/upgrad/quora/service/business/QuestionService.class" beforeDir="false" afterPath="$PROJECT_DIR$/quora-service/target/classes/com/upgrad/quora/service/business/QuestionService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quora-service/target/classes/com/upgrad/quora/service/business/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/quora-service/target/classes/com/upgrad/quora/service/business/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quora-service/target/classes/com/upgrad/quora/service/common/ErrorCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/quora-service/target/classes/com/upgrad/quora/service/common/ErrorCode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quora-service/target/classes/com/upgrad/quora/service/common/GenericErrorCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/quora-service/target/classes/com/upgrad/quora/service/common/GenericErrorCode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quora-service/target/classes/com/upgrad/quora/service/common/UnexpectedException.class" beforeDir="false" afterPath="$PROJECT_DIR$/quora-service/target/classes/com/upgrad/quora/service/common/UnexpectedException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quora-service/target/classes/com/upgrad/quora/service/dao/AnswerDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/quora-service/target/classes/com/upgrad/quora/service/dao/AnswerDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quora-service/target/classes/com/upgrad/quora/service/dao/QuestionDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/quora-service/target/classes/com/upgrad/quora/service/dao/QuestionDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quora-service/target/classes/com/upgrad/quora/service/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/quora-service/target/classes/com/upgrad/quora/service/dao/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quora-service/target/classes/com/upgrad/quora/service/entity/AnswerEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/quora-service/target/classes/com/upgrad/quora/service/entity/AnswerEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quora-service/target/classes/com/upgrad/quora/service/entity/QuestionEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/quora-service/target/classes/com/upgrad/quora/service/entity/QuestionEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quora-service/target/classes/com/upgrad/quora/service/entity/UserAuthEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/quora-service/target/classes/com/upgrad/quora/service/entity/UserAuthEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quora-service/target/classes/com/upgrad/quora/service/entity/UserEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/quora-service/target/classes/com/upgrad/quora/service/entity/UserEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quora-service/target/classes/com/upgrad/quora/service/exception/AnswerNotFoundException.class" beforeDir="false" afterPath="$PROJECT_DIR$/quora-service/target/classes/com/upgrad/quora/service/exception/AnswerNotFoundException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quora-service/target/classes/com/upgrad/quora/service/exception/AuthenticationFailedException.class" beforeDir="false" afterPath="$PROJECT_DIR$/quora-service/target/classes/com/upgrad/quora/service/exception/AuthenticationFailedException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quora-service/target/classes/com/upgrad/quora/service/exception/AuthorizationFailedException.class" beforeDir="false" afterPath="$PROJECT_DIR$/quora-service/target/classes/com/upgrad/quora/service/exception/AuthorizationFailedException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quora-service/target/classes/com/upgrad/quora/service/exception/InvalidQuestionException.class" beforeDir="false" afterPath="$PROJECT_DIR$/quora-service/target/classes/com/upgrad/quora/service/exception/InvalidQuestionException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quora-service/target/classes/com/upgrad/quora/service/exception/SignOutRestrictedException.class" beforeDir="false" afterPath="$PROJECT_DIR$/quora-service/target/classes/com/upgrad/quora/service/exception/SignOutRestrictedException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quora-service/target/classes/com/upgrad/quora/service/exception/SignUpRestrictedException.class" beforeDir="false" afterPath="$PROJECT_DIR$/quora-service/target/classes/com/upgrad/quora/service/exception/SignUpRestrictedException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quora-service/target/classes/com/upgrad/quora/service/exception/UserNotFoundException.class" beforeDir="false" afterPath="$PROJECT_DIR$/quora-service/target/classes/com/upgrad/quora/service/exception/UserNotFoundException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quora-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/quora-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quora-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/quora-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quora-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quora-service/target/quora-service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/quora-service/target/quora-service-1.0-SNAPSHOT.jar" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -108,12 +143,19 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
+        <option name="jdkForImporter" value="1.8" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
   </component>
@@ -121,22 +163,29 @@
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="yaml&#9;FILE&#9;file://E:/Trello_quora/quora_solution/Trello_quora/quora-api/src/main/resources/application.yaml&#10;quora&#9;FILE&#9;file://E:/Trello_quora/quora_solution/Trello_quora/quora-api/src/main/java/com/upgrad/quora/api/QuoraApiApplication.java&#10;quoraapi&#9;FILE&#9;file://E:/Trello_quora/26thsepquora/Trello_quora/quora-api/src/main/java/com/upgrad/quora/api/QuoraApiApplication.java&#10;.yaml&#9;FILE&#9;file://E:/Trello_quora/26thsepquora/Trello_quora/quora-api/src/main/resources/application.yaml&#10;userco&#9;FILE&#9;file://E:/Trello_quora/26thsepquora/Trello_quora/quora-api/src/main/java/com/upgrad/quora/api/controller/UserController.java&#10;userau&#9;FILE&#9;file://E:/Trello_quora/Trello_quora_solution/Trello_quora/quora-service/src/main/java/com/upgrad/quora/service/entity/UserAuthEntity.java&#10;userentity&#9;FILE&#9;file://E:/Trello_quora/Trello_quora_solution/Trello_quora/quora-service/src/main/java/com/upgrad/quora/service/entity/UserEntity.java&#10;commond&#9;PSI&#9;JAVA://com.upgrad.quora.service.dao.CommonDao&#10;userdao&#9;FILE&#9;file://E:/Trello_quora/Trello_quora_solution/Trello_quora/quora-service/src/main/java/com/upgrad/quora/service/dao/UserDao.java&#10;userc&#9;FILE&#9;file://E:/Trello_quora/Trello_quora_solution/Trello_quora/quora-api/src/main/java/com/upgrad/quora/api/controller/UserController.java&#10;quora-api&#9;FILE&#9;file://E:/Trello_quora/Trello_quora_solution/Trello_quora/quora-api/pom.xml&#10;answere&#9;FILE&#9;file://E:/Trello_quora/Trello_quora_solution/Trello_quora/quora-service/src/main/java/com/upgrad/quora/service/entity/AnswerEntity.java&#10;.json&#9;FILE&#9;file://E:/Trello_quora/Trello_quora_solution/Trello_quora/quora-api/src/main/resources/endpoints/quora.json&#10;usere&#9;FILE&#9;file://E:/Trello_quora/Trello_quora_solution/Trello_quora/quora-service/src/main/java/com/upgrad/quora/service/entity/UserEntity.java&#10;userd&#9;FILE&#9;file://E:/Trello_quora/Trello_quora/quora-service/src/main/java/com/upgrad/quora/service/dao/UserDao.java&#10;quoraap&#9;FILE&#9;file://E:/Trello_quora/Trello_quora/quora-api/src/main/java/com/upgrad/quora/api/QuoraApiApplication.java&#10;answer&#9;FILE&#9;file://E:/Trello_quora/Trello_quora/quora-api/src/test/java/com/upgrad/quora/api/controller/AnswerControllerTest.java&#10;question&#9;FILE&#9;file://E:/Trello_quora/Trello_quora/quora-api/src/test/java/com/upgrad/quora/api/controller/QuestionControllerTest.java&#10;common&#9;FILE&#9;file://E:/Trello_quora/Trello_quora/quora-api/src/test/java/com/upgrad/quora/api/controller/CommonControllerTest.java&#10;admincon&#9;FILE&#9;file://E:/Trello_quora/Trello_quora/quora-api/src/test/java/com/upgrad/quora/api/controller/AdminControllerTest.java&#10;appli&#9;FILE&#9;file://E:/Trello_quora/Trello_quora/quora-api/src/main/java/com/upgrad/quora/api/QuoraApiApplication.java&#10;answercontro&#9;FILE&#9;file://E:/Trello_quora/Trello_quora/quora-api/src/main/java/com/upgrad/quora/api/controller/AnswerController.java&#10;adminte&#9;FILE&#9;file://E:/Trello_quora/Trello_quora/quora-api/src/test/java/com/upgrad/quora/api/controller/AdminControllerTest.java&#10;admin&#9;FILE&#9;file://E:/Trello_quora/Trello_quora/quora-api/src/test/java/com/upgrad/quora/api/controller/AdminControllerTest.java&#10;userbu&#9;FILE&#9;file://E:/Trello_quora/Trello_quora/quora-service/src/main/java/com/upgrad/quora/service/business/UserBusinessService.java&#10;.sql&#9;FILE&#9;file://E:/Trello_quora/Trello_quora/quora-db/src/main/resources/sql/quora.sql&#10;admins&#9;FILE&#9;file://E:/Trello_quora/Trello_quora/quora-service/src/main/java/com/upgrad/quora/service/business/AdminBusinessService.java&#10;userauth&#9;FILE&#9;file://E:/Trello_quora/Trello_quora/quora-service/src/main/java/com/upgrad/quora/service/entity/UserAuthEntity.java&#10;questione&#9;FILE&#9;file://E:/Trello_quora/Trello_quora/quora-service/src/main/java/com/upgrad/quora/service/entity/QuestionEntity.java&#10;answeren&#9;FILE&#9;file://E:/Trello_quora/Trello_quora/quora-service/src/main/java/com/upgrad/quora/service/entity/AnswerEntity.java&#10;adminc&#9;FILE&#9;file://E:/Trello_quora/Trello_quora/quora-api/src/main/java/com/upgrad/quora/api/controller/AdminController.java&#10;app&#9;FILE&#9;file://E:/Trello_quora/Trello_quora/quora-api/src/main/java/com/upgrad/quora/api/QuoraApiApplication.java&#10;answerda&#9;FILE&#9;file://E:/Trello_quora/Trello_quora/quora-service/src/main/java/com/upgrad/quora/service/dao/AnswerDao.java&#10;commonbusines&#9;FILE&#9;file://E:/Trello_quora/Trello_quora/quora-service/src/main/java/com/upgrad/quora/service/business/CommonBusinessService.java&#10;questionda&#9;FILE&#9;file://E:/Trello_quora/Trello_quora/quora-service/src/main/java/com/upgrad/quora/service/dao/QuestionDao.java&#10;admindao&#9;FILE&#9;file://E:/Trello_quora/Trello_quora/quora-service/src/main/java/com/upgrad/quora/service/dao/AdminDao.java&#10;application&#9;FILE&#9;file://E:/Trello_quora/Trello_quora/quora-api/src/main/java/com/upgrad/quora/api/QuoraApiApplication.java&#10;applicat&#9;PSI&#9;JAVA://com.upgrad.quora.api.QuoraApiApplication&#10;quora.sql&#9;FILE&#9;file://E:/Trello_quora/quora-db/src/main/resources/sql/quora.sql&#10;answerdao&#9;FILE&#9;file://E:/Trello_quora/quora-service/src/main/java/com/upgrad/quora/service/dao/AnswerDao.java&#10;answerServ&#9;FILE&#9;file://E:/Trello_quora/quora-service/src/main/java/com/upgrad/quora/service/business/AnswerBusinessService.java&#10;questionser&#9;FILE&#9;file://E:/Trello_quora/quora-service/src/main/java/com/upgrad/quora/service/business/QuestionBusinessService.java&#10;commondao&#9;FILE&#9;file://E:/Trello_quora/quora-service/src/main/java/com/upgrad/quora/service/dao/CommonDao.java&#10;commonbusiness&#9;FILE&#9;file://E:/Trello_quora/quora-service/src/main/java/com/upgrad/quora/service/business/CommonBusinessService.java&#10;adminservice&#9;FILE&#9;file://E:/Trello_quora/quora-service/src/main/java/com/upgrad/quora/service/business/AdminBusinessService.java&#10;userbusinessser&#9;FILE&#9;file://E:/Trello_quora/quora-service/src/main/java/com/upgrad/quora/service/business/UserBusinessService.java&#10;userservice&#9;FILE&#9;file://E:/Trello_quora/quora-service/src/main/java/com/upgrad/quora/service/business/UserBusinessService.java&#10;entity&#9;FILE&#9;file://E:/Trello_quora/quora-service/src/main/java/com/upgrad/quora/service/entity/UserEntity.java&#10;adminser&#9;FILE&#9;file://E:/Trello_quora/quora-service/src/main/java/com/upgrad/quora/service/business/AdminBusinessService.java&#10;usera&#9;FILE&#9;file://E:/Trello_quora/quora-service/src/main/java/com/upgrad/quora/service/entity/UserAuthEntity.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538752844056" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Documents/postgresql-42.2.9.jar" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/postgresql-42.2.10.jre6.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.6643678" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -144,18 +193,6 @@
       <recent name="E:\Trello_quora\quora-api\src\main\resources\endpoints" />
       <recent name="E:\Trello_quora\quora-api\src\main\resources" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Spring Boot.QuoraApiApplication">
     <configuration name="AnswerControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -280,7 +317,9 @@
       <workItem from="1581545643638" duration="627000" />
       <workItem from="1581801553288" duration="171000" />
       <workItem from="1581802002579" duration="15000" />
-      <workItem from="1581844242191" duration="23052000" />
+      <workItem from="1581844242191" duration="31402000" />
+      <workItem from="1582103151145" duration="1070000" />
+      <workItem from="1582104682010" duration="796000" />
     </task>
     <task id="LOCAL-00001" summary="setup complete">
       <created>1581847656680</created>
@@ -289,7 +328,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581847656680</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="finished signup,signin,post question">
+      <created>1581875058453</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1581875058453</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -310,7 +356,66 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="setup complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="setup complete" />
+    <MESSAGE value="finished signup,signin,post question" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished signup,signin,post question" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="233" y="0" key="#Project_Structure" timestamp="1582103183558">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="0" key="#Project_Structure/0.0.1280.680@0.0.1280.680" timestamp="1582103183558" />
+    <state x="446" y="50" key="#com.intellij.ide.util.MemberChooser" timestamp="1582103464910">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="446" y="50" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1582103464910" />
+    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1582103083558">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1582103083558" />
+    <state width="1237" height="179" key="GridCell.Tab.0.bottom" timestamp="1582104225459">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="179" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1582104225459" />
+    <state width="1237" height="179" key="GridCell.Tab.0.center" timestamp="1582104225458">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="179" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1582104225458" />
+    <state width="1237" height="179" key="GridCell.Tab.0.left" timestamp="1582104225458">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="179" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1582104225458" />
+    <state width="1237" height="179" key="GridCell.Tab.0.right" timestamp="1582104225459">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="179" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1582104225459" />
+    <state width="1237" height="179" key="GridCell.Tab.1.bottom" timestamp="1582104225459">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="179" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1582104225459" />
+    <state width="1237" height="179" key="GridCell.Tab.1.center" timestamp="1582104225459">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="179" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1582104225459" />
+    <state width="1237" height="179" key="GridCell.Tab.1.left" timestamp="1582104225459">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="179" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1582104225459" />
+    <state width="1237" height="179" key="GridCell.Tab.1.right" timestamp="1582104225459">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="179" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1582104225459" />
+    <state x="121" y="0" key="SettingsEditor" timestamp="1582104222405">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1582104222405" />
+    <state x="336" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1582103153092">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="336" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1582103153092" />
+    <state x="366" y="132" key="git4idea.merge.GitPullDialog" timestamp="1582038940815">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="366" y="132" key="git4idea.merge.GitPullDialog/0.0.1280.680@0.0.1280.680" timestamp="1582038940815" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
