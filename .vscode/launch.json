@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-QuoraApiApplication<quora-api>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.upgrad.quora.api.QuoraApiApplication",
+            "projectName": "quora-api",
+            "args": ""
+        }
+    ]
+}

@@ -11,6 +11,8 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.List;
+
 @Service
 public class AnswerService {
 
@@ -24,11 +26,33 @@ public class AnswerService {
     @Transactional(propagation = Propagation.REQUIRED)
     public AnswerEntity postAnswer(AnswerEntity answerEntity,String questionId, String accessToken)
     {
-        System.out.println();
         UserAuthEntity authEntity=userDao.getUserByToken(accessToken);
         QuestionEntity questionEntity=questionDao.getQuestionByUUID(questionId);
         answerEntity.setUser(authEntity.getUser());
         answerEntity.setQuestion(questionEntity);
         return answerDao.postAnswer(answerEntity);
+    }
+
+    @Transactional(propagation = Propagation.REQUIRED)
+    public AnswerEntity updateAnswer(String content,String answerId, String accessToken)
+    {
+        UserAuthEntity authEntity=userDao.getUserByToken(accessToken);
+        AnswerEntity answerEntity=answerDao.getAnswerByUUID(answerId);
+        answerEntity.setAnswer(content);
+        return answerDao.updateAnswer(answerEntity);
+    }
+
+    @Transactional(propagation = Propagation.REQUIRED)
+    public AnswerEntity deleteAnswer(String answerId, String accessToken)
+    {
+        UserAuthEntity authEntity=userDao.getUserByToken(accessToken);
+        AnswerEntity answerEntity=answerDao.getAnswerByUUID(answerId);
+        return answerDao.deleteAnswer(answerEntity);
+    }
+
+    public List<AnswerEntity> getAnswersByQuestion(String accessToken)
+    {
+        UserAuthEntity authEntity=userDao.getUserByToken(accessToken);
+        return answerDao.getAllAnswers();
     }
 }

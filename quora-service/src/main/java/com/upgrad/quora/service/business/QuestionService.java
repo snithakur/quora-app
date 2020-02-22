@@ -16,6 +16,7 @@ public class QuestionService {
 
     @Autowired
     QuestionDao questionDao;
+
     @Autowired
     UserDao userDao;
 
@@ -34,6 +35,34 @@ public class QuestionService {
         if(authEntity!=null)
         {
             return questionDao.getAllQuestions();
+        }
+
+        return null;
+    }
+
+    @Transactional(propagation = Propagation.REQUIRED)
+    public QuestionEntity updateQuestion(String questionId, String content, String accessToken)
+    {
+        UserAuthEntity authEntity=userDao.getUserByToken(accessToken);
+        QuestionEntity questionEntity=questionDao.getQuestionByUUID(questionId);
+        questionEntity.setContent(content);
+        return questionDao.updateQuestion(questionEntity);
+    }
+
+    @Transactional(propagation = Propagation.REQUIRED)
+    public QuestionEntity deleteQuestion(String questionId, String accessToken)
+    {
+        UserAuthEntity authEntity=userDao.getUserByToken(accessToken);
+        QuestionEntity questionEntity=questionDao.getQuestionByUUID(questionId);
+        return questionDao.deleteQuestion(questionEntity);
+    }
+
+    public List<QuestionEntity> getQuestionsByUser(String userId,String accessToken)
+    {
+        UserAuthEntity authEntity=userDao.getUserByToken(accessToken);
+        if(authEntity!=null && authEntity.getUser().getUuid().equalsIgnoreCase(userId))
+        {
+            return questionDao.getQuestionsByUser();
         }
 
         return null;
