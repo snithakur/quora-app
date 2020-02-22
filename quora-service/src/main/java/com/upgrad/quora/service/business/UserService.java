@@ -21,23 +21,19 @@ public class UserService {
     PasswordCryptographyProvider cryptographyProvider;
 
     @Transactional(propagation = Propagation.REQUIRED)
-    public UserEntity createUser(UserEntity userEntity)
-    {
-        String encryptedPassword = cryptographyProvider.encrypt(userEntity.getSalt(),userEntity.getPassword());
+    public UserEntity createUser(UserEntity userEntity) {
+        String encryptedPassword = cryptographyProvider.encrypt(userEntity.getSalt(), userEntity.getPassword());
         userEntity.setPassword(encryptedPassword);
         return userDao.createUser(userEntity);
     }
 
     @Transactional(propagation = Propagation.REQUIRED)
-    public UserAuthEntity authenticate(String username, String password)
-    {
+    public UserAuthEntity authenticate(String username, String password) {
         UserEntity userEntity = userDao.getUserByUsername(username);
         UserAuthEntity userAuthToken = new UserAuthEntity();
-        if(userEntity!=null)
-        {
-            String encryptedPassword=cryptographyProvider.encrypt(userEntity.getSalt(),password);
-            if(userEntity.getPassword().equalsIgnoreCase(encryptedPassword))
-            {
+        if (userEntity != null) {
+            String encryptedPassword = cryptographyProvider.encrypt(userEntity.getSalt(), password);
+            if (userEntity.getPassword().equalsIgnoreCase(encryptedPassword)) {
                 JwtTokenProvider jwtTokenProvider = new JwtTokenProvider(userEntity.getPassword());
                 userAuthToken.setUser(userEntity);
 
@@ -53,5 +49,24 @@ public class UserService {
         return userAuthToken;
     }
 
+    public UserEntity getUserProfile(String userId, String token) {
+        UserAuthEntity authEntity = userDao.getUserByToken(token);
+        UserEntity userEntity = userDao.getUserByUUID(userId);
+        if (userEntity.getUuid().equalsIgnoreCase(authEntity.getUser().getUuid())) {
+            return userEntity;
+        }
+        return null;
+    }
+
+    public UserEntity deleteUser(String userId, String token)
+    {
+        UserAuthEntity authEntity=userDao.getUserByToken(token);
+        if(authEntity.getUser().getRole().equalsIgnoreCase("admin"))
+        {
+            UserEntity userEntity=userDao.getUserByUUID(userId);
+            return userDao.deleteUser(userEntity);
+        }
+        return null;
+    }
 }
 
