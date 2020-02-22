@@ -3,29 +3,46 @@ package com.upgrad.quora.service.dao;
 import com.upgrad.quora.service.entity.QuestionEntity;
 import org.springframework.stereotype.Repository;
 
-import javax.persistence.EntityManager;
-import javax.persistence.PersistenceContext;
+import javax.persistence.*;
 import java.util.List;
 
 @Repository
 public class QuestionDao {
 
-    @PersistenceContext
-    private EntityManager entityManager;
+    @PersistenceContext(type = PersistenceContextType.EXTENDED)
+    private EntityManager em;
 
     public QuestionEntity postQuestion(QuestionEntity questionEntity)
     {
-        entityManager.persist(questionEntity);
+        em.persist(questionEntity);
         return questionEntity;
     }
 
     public QuestionEntity getQuestionByUUID(final String uuid)
     {
-        return entityManager.createNamedQuery("questionByUUID", QuestionEntity.class).setParameter("uuid", uuid).getSingleResult();
+        return em.createNamedQuery("questionByUUID", QuestionEntity.class).setParameter("uuid", uuid).getSingleResult();
     }
 
     public List<QuestionEntity> getAllQuestions()
     {
-        return entityManager.createNamedQuery("allQuestions",QuestionEntity.class).getResultList();
+        return em.createNamedQuery("allQuestions",QuestionEntity.class).getResultList();
+    }
+
+    public QuestionEntity updateQuestion(QuestionEntity questionEntity)
+    {
+        em.merge(questionEntity);
+        return questionEntity;
+    }
+
+    public QuestionEntity deleteQuestion(QuestionEntity questionEntity)
+    {
+        em.remove(questionEntity);
+        em.flush();
+        return questionEntity;
+    }
+
+    public  List<QuestionEntity> getQuestionsByUser()
+    {
+        return em.createNamedQuery("allQuestions",QuestionEntity.class).getResultList();
     }
 }
