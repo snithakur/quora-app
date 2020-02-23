@@ -15,7 +15,7 @@ public class AdminController {
     @Autowired
     UserService userService;
 
-    @RequestMapping(method = RequestMethod.DELETE, path = "/admin/user/userId", produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
+    @RequestMapping(method = RequestMethod.DELETE, path = "/admin/user/{userId}", produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
     public ResponseEntity<UserDeleteResponse> deleteUser(@PathVariable("userId") String userId, @RequestHeader("Authorization") String authorization)
     {
         String token = authorization.split("Bearer ")[1];
