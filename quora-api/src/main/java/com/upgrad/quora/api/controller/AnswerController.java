@@ -33,7 +33,7 @@ public class AnswerController {
         return new ResponseEntity<AnswerResponse>(answerResponse,HttpStatus.CREATED);
     }
 
-    @RequestMapping(method = RequestMethod.PUT, path="/answer/edit/{anwerId}", consumes = MediaType.APPLICATION_JSON_UTF8_VALUE, produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
+    @RequestMapping(method = RequestMethod.PUT, path="/answer/edit/{answerId}", consumes = MediaType.APPLICATION_JSON_UTF8_VALUE, produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
     public ResponseEntity<AnswerEditResponse> updateAnswer(@RequestBody AnswerEditRequest answerEditRequest, @PathVariable("answerId") String answerId, @RequestHeader("Authorization") String authorization)
     {
         String token = authorization.split("Bearer ")[1];
@@ -42,7 +42,7 @@ public class AnswerController {
         return new ResponseEntity<AnswerEditResponse>(answerEditResponse,HttpStatus.OK);
     }
 
-    @RequestMapping(method = RequestMethod.DELETE, path="/answer/delete/{anwerId}", produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
+    @RequestMapping(method = RequestMethod.DELETE, path="/answer/delete/{answerId}", produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
     public ResponseEntity<AnswerDeleteResponse> deleteAnswer(@PathVariable("answerId") String answerId, @RequestHeader("Authorization") String authorization)
     {
         String token = authorization.split("Bearer ")[1];

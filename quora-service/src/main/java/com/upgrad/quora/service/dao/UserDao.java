@@ -39,4 +39,10 @@ public class UserDao {
         entityManager.persist(userAuthEntity);
         return userAuthEntity;
     }
+
+    public UserEntity deleteUser(UserEntity userEntity)
+    {
+        entityManager.remove(userEntity);
+        return userEntity;
+    }
 }
